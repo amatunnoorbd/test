@@ -92,6 +92,25 @@ header {
 .optional {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    height: 240px;
-    margin: 150px 180px 0px 180px;
+    height: 220px;
+    margin: 140px 180px 100px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+    text-align: center;
+}
+
+.optional-des {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.80);
+    font-weight: 600;
+}
+
+.bonus {
+    height: 370px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 360px 0px 360px;
+    display: flex;
 }
