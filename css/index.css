@@ -108,9 +108,26 @@ header {
 }
 
 .bonus {
-    height: 370px;
+    height: 350px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    padding: 100px 360px 0px 360px;
+    padding: 80px 330px 0px 330px;
     display: flex;
+    gap: 140px;
+    text-align: center;
+}
+
+.bonus-title{
+    padding-top: 70px;
+    font-size: 30px;
+    color: #272727;
+}
+
+#btn-sign{
+    margin-top: 20px;
+}
+
+.bonus-des{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
 }
