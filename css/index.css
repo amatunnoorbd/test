@@ -1,0 +1,55 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+/* header section style */
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+    height: 630px;
+    display: flex;
+    gap: 70px;
+    padding: 50px 180px 0px 180px;
+}
+
+.header-title {
+    padding-top: 100px;
+    color: #272727;
+    font-size: 55px;
+    font-weight: 500px;
+    padding-bottom: 0px;
+}
+
+.header-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    width: 89%;
+    padding-bottom: 15px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding:16px 33px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.feature{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+    color: #272727;
+}
+
+.feature-des{
+    text-align: center;
+    width:530px;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+}
